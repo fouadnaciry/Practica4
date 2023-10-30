@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>formulari</title>
+    <link rel="stylesheet" href="formulari.css">
+</head>
+<body>
+<!--el primero indica el titulo y la primera frase-->
+<h1> Subscriu-te al noticiari ITIC Barcelona</h1>
+<h3> <b>  Primer,explica'ns qui ets  </b> </h3>
+<!--la entrega de las entradas del gmail , nombre y apellido -->
+<table>
+    <tr>
+        <th><label for="email">Email</label></th>
+        <th><input type="email"></th>
+    </tr>
+    <tr>
+        <td><label for="text">nom i cognom </label></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><label for="number">edat</label></td>
+        <td><input type="number"id="quantity" name="edad" min="1" max="100"></td>
+    </tr>
+</table>
+<!-- indica el segundo parrafo con h3-->
+<h3>Quin cicle estas estudiant ?</h3>
+<form>
+    <!--los tipos de estudio-->
+    <input type="radio" >
+    <label for="ASIX">ASIX</label>
+</form>
+<form>
+    <input type="radio" >
+    <label for="ASIX">DAM</label>
+</form>
+<form>
+    <input type="radio" >
+    <label for="ASIX">DAW</label>
+</form>
+<!-- indicar la año de estudio -->
+<p>I en quin curs ?
+    <input list="browsers" name="browser" id="browser">
+    <datalist id="browsers">
+        <option value="Primer">
+        <option value="segund">
+    </datalist>
+</p>
+<!-- indicar los 4 tipos y marcar lo que tu quieras  -->
+<h3>marca els temes que vulguis estar sempre al dia !</h3>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+<label for="vehicle1"> intel-ligencia artifial</label><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+<label for="vehicle1"> computacio quantica</label><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+<label for="vehicle1"> Supercomputadors</label><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked>
+<label for="vehicle1"> recerca en algorismia</label><br>
+<!-- descrepcion para entregar algo extra final  -->
+<p>Hi ha algun tema mes t interessi?Explica`ns-ho!  </p>
+<textarea name="text" id="" cols="50" rows="10"input type="text" placeholder="tambe m'agradaria saber les ultimes novetats sobre ..."></textarea>
+<p></p>
+<!--el boton para enviar -->
+<a href="formulari1.html" ><button type="button">subscriu-me</button></a>
+</body>
+</html>
