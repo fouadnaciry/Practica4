@@ -1,0 +1,33 @@
+header {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    background-color: rgba(128, 128, 128, 0.281);
+    background-size:inherit;
+}
+#s1{
+    
+    width: 100%;
+    block-size: 100px;
+}
+#s2{
+    width: 100%;
+    block-size: 100px;
+}
+#s3{
+    
+    width: 100%;
+    block-size: 100px;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+}
